@@ -13,7 +13,7 @@ namespace ClassesChapter4
 
             //Example-1
 
-            /* Message rainMessage = new Message("Hello, world\n" +"Chinese Democracy is done and it's November\n" +"Is it raining?");
+            /* Message rainMessage = new Message("Hello, world\n" +"I'm Anusha Medichelmi\n" +"Is it raining?");
              rainMessage.Print();
              Console.WriteLine();*/
             // }
@@ -65,6 +65,43 @@ namespace ClassesChapter4
              circle5.Radius, circle5.Area);
              Console.WriteLine();
          }*/
+
+
+            //Example-4
+
+            /* string rank;
+             string suit;
+             bool faceUp;
+
+             public Program(string rank, string suit)
+             {
+                 this.rank = rank;
+                 this.suit = suit;
+                 faceUp = false;
+             }
+
+
+
+         public string Rank
+         {
+             get { return rank; }
+         }
+
+         public string Suit
+         {
+             get { return suit; }
+         }
+
+         public bool FaceUp
+         {
+             get { return faceUp; }
+         }
+
+ public void FlipOver()
+         {
+             faceUp = !faceUp;
+
+     }*/
         }
     }
 }
